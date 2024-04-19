@@ -47,13 +47,12 @@ body {
     
 }
 
-
 .corpo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 6% 15%;
+    padding: 100px 200px;
     gap: 20px; 
 }
 
@@ -303,6 +302,6 @@ input::placeholder, textarea::placeholder {
     .foto {
         display: block;
         width: auto;
-        margin: 140px 0;
+        margin: 190px 0;
     }
 }
