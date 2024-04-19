@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulana de Tal - Desenvolvedora Web</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+
+<header>
+    <nav class="cabecalho__menu">
+        <ul class="menu__bloco">
+            <li><a class="cabecalho__link" href="#sobre__mim">Sobre mim</a></li>
+            <li><a class="cabecalho__link" href="#skills">Skills</a></li>
+            <li><a class="cabecalho__link" href="#formacao">Formação</a></li>
+            <li><a class="cabecalho__link" href="#experiencia">Experiência Profissional</a></li>
+            <li><a class="cabecalho__link" href="#contato">Contato</a></li>
+        </ul>
+        
+    </nav>
+</header>
+
+<div class="container">
+  <main class="corpo">
+    <section class="titulo" id="sobre__mim">
+      <h1>Olá, meu nome é Vinicius Rocha e construo páginas web</h1>
+    </section>
+    <img class="foto" src="./assets/MAT00564.png" alt="Foto do Vinicius Rocha">
+    <section class="links">
+      <a href="https://github.com/seuUsuario" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/vinicius-rocha-de-aguiar-650a63b9/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://www.instagram.com/vinyrocha/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+    </section>
+  </main>
+  
+</div>   
+
+<div class="container__blue">   
+  <section class="sobre__mim">
+      <h1>Sobre Mim</h1>
+      <p>Sou formado em Administração e estou participando do projeto Oracle ONE na Alura. Estou à procura de um estágio na área de tecnologia para conhecer os diversos campos de atuação do programador e assim, aprender com profissionais experientesas demandas e expectativas do mercado.</p>
+    </section>
+</div>  
+
+<div class="container">
+    <section class="habilidades">
+      <h1 id="skills">Habilidades</h1>
+        <div class="skills">
+          <div class="box">
+            <img src="./assets/html5.png" />
+            <div><span>HTML5</span></div>
+          </div>
+          <div class="box">
+            <img src="./assets/css.png" />
+            <div><span>CSS</span></div>
+          </div>
+        </div>
+    </section>
+<div class="container__blue">    
+    <section class="formacao" id="formacao">
+     <h1>Formação Acadêmica</h1>
+      <div class="row">
+        <div class="instituicao">
+          <div class="box center">
+            <img src="./assets/ceub.png" alt="Uniceub"/>
+          </div>
+              <h3>Administração</h3>
+              <p>2022 - Uniceub</p>
+        </div>
+        <div class="instituicao">
+          <div class="box center">
+            <img src="./assets/uniplan.png" alt="Uniplan"/>
+          </div>
+            <h3>Analise e desenvolvimento de dados</h3>
+            <p>Em Adndamento - Uniplan</p>
+        </div>
+        <div class="instituicao">
+          <div class="box center">
+            <img src="./assets/alura.png" alt="Alura"/>
+          </div>
+            <h3>Oracle ONE</h3>
+            <p>Em andamento - Alura</p>
+          </div>
+      </div>
+    </section>
+</div>    
+<div class="container">
+    <section class="experiencia" id="experiencia">
+      <h1>Experiência Profissional</h1>
+      <div class="trabalhos">
+          <h2>Administrativo - ETERC ENGENHARIA LTDA</h2>
+          <p>Realização de cotações e compras de matérias, elaboração e gestão de contratos, gestão de pessoas e RH</p>
+          <p>04/2022- 11/2023</p>
+      </div>
+      <div class="trabalhos">
+          <h3>Auxiliar administrativo - Qualifisio</h3>
+          <p>Conferencia de documentos, criação e acompanhamento de planilhas e relatórios, auxiliar na organização de arquivos e documentos, conferencia de contas e valores</p>
+          <p>01/2019 - 05/2020</p>
+      </div>
+      <div class="trabalhos">
+          <h3>Auxiliar administrativo - Ministério da Cultura MINC</h3>
+          <p>Elaborar documentos, planilhas e relatórios, Acompanhar entrada e saída de documentos, Auxiliar na organização de arquivos e documentos</p>
+          <p>01/2016 - 12/2018</p>
+      </div>
+    </section>
+</div>    
+<div class="container__blue">     
+    <section class="contato" id="contato">
+      <h2>Contato</h2>
+      <div class="contato-section">
+        <p>Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o quanto antes.</p>
+      </div>
+      <div class="contato-section"> 
+        <img class="email-img" src="./assets/email.png" alt="E-mail">
+            <form
+              action="https://formspree.io/f/xdoqyejp"
+              method="POST"
+            >
+                <label>
+                  E-mail:
+                  <input type="email" name="email">
+                </label>
+                <label>
+                  Digite sua mengesam:
+                  <textarea name="message"></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+
+<footer  class="rodape">
+    <p>Desenvolvido por Vinicius Rocha</p>
+</footer>
+  <script src="node.js"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #464646;
+    background-color:#F5F5F5;
+    font-size: 30px;
+}   
+
+.container {
+    color: #464646;
+    background-color:#F5F5F5;
+ }
+
+.container__blue{
+    color: #464646;
+    background-color:#EAF2FD;
+   
+ 
+}
+
+.cabecalho__menu {
+    padding: 2% 0% 0% 14%; 
+    display: flex;
+}
+
+.menu__bloco{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.cabecalho__link {
+    font-size: 25px;
+    color: #464646;
+    text-decoration: none; 
+    font-family: raleway;
+    
+}
+
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6% 15%;
+    gap: 0px;
+ 
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.titulo h1 {
+    max-width: 800px; 
+    text-align: center; 
+    margin: 10px 0; 
+    height: 60px; 
+}
+
+.links {
+    padding: 20px 0;
+}
+
+.links a {
+    text-decoration: none; 
+    color: #464646; 
+    margin: 0 10px; 
+    font-size: 24px; 
+}
+.links a:hover {
+    color: #080f74; 
+}
+
+.sobre__mim {
+    padding: 6% 15%;
+    justify-content: center;
+    font-size: 30px;
+   
+}
+
+.habilidades {
+    padding: 6% 15%;
+}
+
+.box {
+    display: flex;
+    background-color: #ffff;
+    aspect-ratio: 1;
+    min-width: 200px;
+    min-height: 200px;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px;
+}
+
+.skills {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+    font-family: Raleway;
+    font-size: 25px;
+    padding: 6% 15%;
+}
+
+.formacao {
+    padding: 6% 15%;   
+}
+  
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.instituicao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+     
+}
+.row {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+.box > img {
+    object-fit: contain;
+    max-height: 160px;
+    max-width: 160px;
+}
+
+.instituicao h3 {
+    max-width: 200px; 
+    text-align: center; 
+    margin: 10px 0; 
+    font-size: 20px;
+    height: 60px; 
+}
+
+.instituicao p {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.experiencia{
+    padding: 6% 15%;
+}
+
+.trabalho{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contato {
+    padding: 6% 15%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+}
+
+  
+  .contato-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contato-section p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+
+form label,
+form input,
+form textarea,
+form button {
+    margin-bottom: 15px; /
+}
+
+
+form input[type="email"],
+form textarea {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+}
+
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+form button:hover {
+    background-color: #555;
+}
+
+
+form label {
+    margin-top: 10px; 
+}
+
+
+input::placeholder, textarea::placeholder {
+    color: #888;
+}  
+
+.rodape{
+    padding: 0,5% 15%;
+    display: flex;
+    font-size: 18px;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+@media (max-width: 768px) {
+    .contact-section {
+      margin: 20px;
+      padding: 10px;
+    }
+  }
+
+@media (max-width: 600px) {
+    .skill, .hobby, .education, .experience, .portfolio-item {
+        flex-basis: 100%;
+    }
+}    
+
+@media (min-width: 768px) {
+    form {
+        width: 40%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .email-img {
+        display: none;
+    }
+}
